@@ -30,7 +30,7 @@ We have trained and tested our models on `Ubuntu 16.0`, `CUDA 10.2`, `GCC 5.4`, 
 ```bash
 conda create -n owdetr python=3.7 pip
 conda activate owdetr
-conda install pytorch==1.8.0 torchvision==0.9.0 torchaudio==0.8.0 cudatoolkit=10.2 -c pytorch
+conda install pytorch==1.8.0 torchvision==0.9.0 torchaudio==0.8.0 cudatoolkit=11.1 -c pytorch
 pip install -r requirements.txt
 ```
 
@@ -55,6 +55,7 @@ python test.py
 <br>
 
 The splits are present inside `data/VOC2007/OWOD/ImageSets/` folder. The remaining dataset can be downloaded using this [link](https://drive.google.com/drive/folders/11bJRdZqdtzIxBDkxrx2Jc3AhirqkO0YV)
+链接失效了，你们去别的地方下吧
 
 The files should be organized in the following structure:
 ```
