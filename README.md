@@ -31,7 +31,7 @@ We have trained and tested our models on `Ubuntu 16.0`, `CUDA 10.2`, `GCC 5.4`, 
 conda create -n owdetr python=3.7 pip
 conda activate owdetr
 conda install pytorch==1.8.0 torchvision==0.9.0 torchaudio==0.8.0 cudatoolkit=11.1 -c pytorch
-conda install pandas seaborn einops bottleneck pycocotools 
+conda install pandas seaborn einops bottleneck pycocotools matplotlib fonttools tqdm
 pip install -r requirements.txt
 ```
 
